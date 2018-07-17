@@ -1,2 +1,3 @@
 # aws-practice
-Testing of Lambda functions, DynamoDB table
+
+## Creating lambda functions
