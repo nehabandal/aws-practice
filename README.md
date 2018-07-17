@@ -1,6 +1,6 @@
 # aws-practice
 
-# ![Apex (Build, deploy, and manage AWS Lambda functions with ease)](https://github.com/apex/apex)
+### ![Apex (Build, deploy, and manage AWS Lambda functions with ease)](https://github.com/apex/apex)
 
 ## Lambda
 
