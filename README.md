@@ -34,3 +34,9 @@ Install awscli for command line AWS
 Install jq for command line javascript parsing
     brew install jq
     
+### Serverless Deploy in different aws environment
+
+#### 1. 'npm install serverless -g'
+#### 2. 'sls config credentials --provider aws --key **********  --secret ********'
+#### 3. 'sls deploy --stage dev'
+    
