@@ -17,7 +17,7 @@ http://unicornrides-neha-bandal.s3-website-us-west-1.amazonaws.com
 ## Step 2: [Manage Users(Register user, verify email id and Sign in functions implementation using Amazon Cognito)](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-2/)
 
 Changes in config.js file
-- Update config.js with genereated pool id and App client id
+- Update config.js with genereated Cognito user pool id and App client id
 
 ## Lambda
 
