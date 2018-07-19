@@ -1,6 +1,6 @@
 # aws-practice
 
-### ![Apex (Build, deploy, and manage AWS Lambda functions with ease)](https://github.com/apex/apex)
+### [Apex (Build, deploy, and manage AWS Lambda functions with ease)](https://github.com/apex/apex)
 
 ### Project: Unicorn Rides
 
@@ -10,9 +10,14 @@ Create a simple serverless web application that enables users to request unicorn
 
 The application architecture uses AWS Lambda, Amazon API Gateway, Amazon S3, Amazon DynamoDB, and Amazon Cognito as pictured below:
 
-## Step 1: ![Host a Static Website](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
+## Step 1: [Host a Static Website](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
 
+http://unicornrides-neha-bandal.s3-website-us-west-1.amazonaws.com
 
+## Step 2: [Manage Users(Register user, verify email id and Sign in functions implementation using Amazon Cognito)](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-2/)
+
+Changes in config.js file
+- Update config.js with genereated pool id and App client id
 
 ## Lambda
 
