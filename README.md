@@ -10,14 +10,28 @@ Create a simple serverless web application that enables users to request unicorn
 
 The application architecture uses AWS Lambda, Amazon API Gateway, Amazon S3, Amazon DynamoDB, and Amazon Cognito as pictured below:
 
-## Step 1: [Host a Static Website](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
+### Step 1: [Host a Static Website](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
 
 http://unicornrides-neha-bandal.s3-website-us-west-1.amazonaws.com
 
-## Step 2: [Manage Users(Register user, verify email id and Sign in functions implementation using Amazon Cognito)](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-2/)
+### Step 2: [Manage Users(Register user, verify email id and Sign in functions implementation using Amazon Cognito)](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-2/)
 
 Changes in config.js file
 - Update config.js with genereated Cognito user pool id and App client id
+
+### Step 3: [Build a serverless backend](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-3/)
+
+Use AWS Lambda and Amazon DynamoDB to build a backend process for handling requests for your web application.
+
+### Step 4: [Deploy a RESTful API](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-4/)
+
+Build API Gateway component module to integrate with the existing components you built previously,
+
+Use Amazon API Gateway to expose the Lambda function you built in the previous module as a RESTful API.
+
+### Step 5: [Terminate resources](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-5/)
+
+Terminate an Amazon S3 bucket, an Amazon Cognito User Pool, an AWS Lambda function, an IAM role, a DynamoDB table, a REST API, and a CloudWatch Log. It is a best practice to delete resources you are no longer using to avoid unwanted charges.
 
 ## Lambda
 
