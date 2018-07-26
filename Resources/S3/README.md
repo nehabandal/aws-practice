@@ -14,7 +14,7 @@
 ## Step 1: Create S3 buckets and upload object
 
 Create two buckets (source and sourceresized bucket) and upload a sample .jpg object (Test.jpg) in the source bucket.
-[s3.py]()
+[s3.py](https://github.com/nehabandal/aws-practice/blob/master/Resources/S3/s3.py)
 
   - The target bucket name must be source followed by resized, where source is the name of the bucket you want to use for the source. For example, mybucket and mybucketresized.
   - In the source bucket, upload a .jpg object, Test.jpg
