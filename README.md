@@ -2,37 +2,6 @@
 
 ### [Apex (Build, deploy, and manage AWS Lambda functions with ease)](https://github.com/apex/apex)
 
-### Project: Unicorn Rides
-
-Create a simple serverless web application that enables users to request unicorn rides from the Wild Rydes fleet. The application will present users with an HTML based user interface for indicating the location where they would like to be picked up and will interface on the backend with a RESTful web service to submit the request and dispatch a nearby unicorn. The application will also provide facilities for users to register with the service and log in before requesting rides.
-
-#### Application Architecture
-
-The application architecture uses AWS Lambda, Amazon API Gateway, Amazon S3, Amazon DynamoDB, and Amazon Cognito as pictured below:
-
-### Step 1: [Host a Static Website](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
-
-http://unicornrides-neha-bandal.s3-website-us-west-1.amazonaws.com
-
-### Step 2: [Manage Users(Register user, verify email id and Sign in functions implementation using Amazon Cognito)](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-2/)
-
-Changes in config.js file
-- Update config.js with genereated Cognito user pool id and App client id
-
-### Step 3: [Build a serverless backend](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-3/)
-
-Use AWS Lambda and Amazon DynamoDB to build a backend process for handling requests for your web application.
-
-### Step 4: [Deploy a RESTful API](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-4/)
-
-Build API Gateway component module to integrate with the existing components you built previously,
-
-Use Amazon API Gateway to expose the Lambda function you built in the previous module as a RESTful API.
-
-### Step 5: [Terminate resources](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-5/)
-
-Terminate an Amazon S3 bucket, an Amazon Cognito User Pool, an AWS Lambda function, an IAM role, a DynamoDB table, a REST API, and a CloudWatch Log. It is a best practice to delete resources you are no longer using to avoid unwanted charges.
-
 ## Lambda
 
 ### Lambda Features
@@ -54,7 +23,6 @@ important (and potentially *expensive*) catch: PUT/POST/GET requests to all
 AWS data stores are **NOT** Free! While per-run costs on Lambda are tiny, if you GET and PUT
 something to S3 on each execution cycle you could rack up the bill!
 
-
 ### Creating simple Lambda function in Python
 
 #### Unique Identifire
@@ -72,3 +40,7 @@ Install jq for command line javascript parsing
 #### 1. 'npm install serverless -g'
 #### 2. 'sls config credentials --provider aws --key **********  --secret ********'
 #### 3. 'sls deploy --stage dev'
+
+
+## Project: Unicorn Rides
+
