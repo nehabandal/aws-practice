@@ -1,5 +1,6 @@
 # Logs
 logs
 *.log
-.idea
+.iml
+.xml
 .DS_Store
