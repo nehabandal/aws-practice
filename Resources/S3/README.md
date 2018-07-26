@@ -14,6 +14,7 @@
 ## Step 1: Create S3 buckets and upload object
 
 Create two buckets (source and sourceresized bucket) and upload a sample .jpg object (Test.jpg) in the source bucket.
+[s3.py]()
 
   - The target bucket name must be source followed by resized, where source is the name of the bucket you want to use for the source. For example, mybucket and mybucketresized.
   - In the source bucket, upload a .jpg object, Test.jpg
@@ -21,7 +22,7 @@ Create two buckets (source and sourceresized bucket) and upload a sample .jpg ob
 ## Step 2: Create a Lambda Function and Invoke It Manually (Using Sample Event Data)
 
 ### [Step 2.1: Create a Deployment Package](https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example-deployment-pkg.html)
-[CreateThumbnail.py]()
+[CreateThumbnail.py](https://github.com/nehabandal/aws-practice/blob/master/Resources/S3/CreateThumbnail.py)
       
 ### [Step 2.2: Create the Execution Role (IAM Role)](https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example-create-iam-role.html)
 
