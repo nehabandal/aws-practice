@@ -1,6 +1,6 @@
 # aws-practice
 
-### [Apex (Build, deploy, and manage AWS Lambda functions with ease)](https://github.com/apex/apex)
+## [Project: Unicorn Rides](https://github.com/nehabandal/aws-practice/tree/master/Project-UnicornRides/aws-serverless-workshops-master)
 
 ## Lambda
 
@@ -42,5 +42,7 @@ Install jq for command line javascript parsing
 #### 3. 'sls deploy --stage dev'
 
 
-## Project: Unicorn Rides
+### [Apex (Build, deploy, and manage AWS Lambda functions with ease)](https://github.com/apex/apex)
+
+
 
