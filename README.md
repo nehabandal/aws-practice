@@ -2,6 +2,8 @@
 
 ## [Project: Unicorn Rides](https://github.com/nehabandal/aws-practice/tree/master/Project-UnicornRides/aws-serverless-workshops-master)
 
+## [Project: Moving object from one S3 bucket to another](https://github.com/nehabandal/aws-practice/tree/master/Resources/S3)
+
 ## Lambda
 
 ### Lambda Features
